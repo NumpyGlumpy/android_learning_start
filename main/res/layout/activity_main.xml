@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/asian_women_are_exercising_gym_sift_through_leather_water_keeping_their_body_healthy_1"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/faustina_medium"
+            android:gravity="center"
+            android:letterSpacing="@dimen/logoLetterSpacing"
+            android:text="@string/fitkit"
+            android:textColor="@color/LogoTextColor"
+            android:textSize="@dimen/LogoTextSize"/>
+
+        <TextView
+            android:layout_width="297sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:layout_marginTop="136sp"
+            android:textColor="@color/LogoTextColor"
+            android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting" />
+    </FrameLayout>
+</FrameLayout>

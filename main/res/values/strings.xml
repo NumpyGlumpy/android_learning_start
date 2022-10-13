@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="kitkit">KitKit</string>
+    <string name="todo">TODO</string>
+    <string name="fitkit">FitKit</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting">Lorem Ipsum is simply dummy text of the printing and typesetting</string>
+</resources>
